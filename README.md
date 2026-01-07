@@ -1,2 +1,7 @@
-# Godot_Tabout
-A lightweight productivity plugin for the Godot Editor that brings "Tab Out" functionality found in modern IDEs like VS Code and IntelliJ.
+# Godot Tab Out Plugin
+A simple quality-of-life plugin for the Godot 4.x Editor.
+
+## Features
+- Press `Tab` to jump out of `""`, `''`, `()`, `[]`, `{}`, and `<>`.
+- Press `Shift + Tab` to jump back in.
+- Intelligent counting: Only tabs out if the pair is actually opened on the same line.
